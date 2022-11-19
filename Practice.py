@@ -282,3 +282,47 @@ print(perfect_score,"/",score)
 print(answer)
 print(stu_answer)
 print(ox)
+
+
+menu = ("돈까스", "치즈까스")
+print(menu[0])
+print(menu[1])
+
+#추가, 변경 불가능
+
+name, age , hobby = ("가온", "16", "코딩")
+print(name, age , hobby)
+
+#세트 중복, 순서 x
+set = {1,2,3,4,4,4,4,}
+
+java = {"a", "b", "c"}
+python = {"a","d","s"}
+
+#교집합
+print(java & python)
+
+#합집합
+print(java | python)
+
+#차집합 (자바는 가능하지만 파이썬은 모름)
+print(java - python)
+
+#추가
+python.add("뀨")
+print(python)
+
+#삭제
+python.remove("뀨")
+
+#자료구조 변경
+print(type(python))#타입확인
+python= list(python) #타입 변경 set list tuple
+
+comment = range(1, 21)
+comment = list(comment)
+shuffle(comment)
+print(comment)
+
+print("1등은 {0} 입니다\n2,3,4등은{1}입니다 축하드립니다!".format(comment[0], comment[1:4]))
+
