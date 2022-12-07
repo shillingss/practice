@@ -273,8 +273,7 @@ while repeat < total_problem: # 정답 맞추기
       else:
           ox.append("X")
           repeat += 1
-    
-      
+          
 
 print("정답")
 print(perfect_score,"/",score)
@@ -325,4 +324,85 @@ shuffle(comment)
 print(comment)
 
 print("1등은 {0} 입니다\n2,3,4등은{1}입니다 축하드립니다!".format(comment[0], comment[1:4]))
+
+absent = [2,5]
+stu = 11
+
+for stu in range(1,stu):
+      if stu in absent:
+            continue
+      print(stu)
+
+
+repeat_num = 0
+total_time = 0
+
+
+while repeat_num < 50:
+      repeat_num += 1 
+      random_time = randint(5, 51)
+      print("{0}번 손님 (요구시간 {1}분)".format(repeat_num, random_time))
+      if random_time < 15:
+        total_time += random_time
+        print(total_time)
+      
+
+print("총 소요 시간은", total_time , "입니다")
+
+def hi():
+      print("님 ㅎㅇ")
+
+hi()
+
+
+def plus(num1=0, num2=1):
+      print("더하기 값은{}입니다".format(num1 + num2))
+      num3 = num1 + num2
+      return num3
+
+
+def minus (num1, num2):
+      print("빼기 값은 {}입니다".format(num1 - num2))
+
+
+plus()
+
+def plus_many (num1, num2, *any):
+     result = num1 +num2 
+     for num3 in any:
+          result += num3
+     print("더하기 결과는 {0} 입니다".format(result)) 
+
+
+plus_many(1,2,41,212,11)
+
+def sum (num):
+     repeat =0
+     str1 = "*"
+     str2 = "/"
+     str3 = "+"
+     str4 = "-"
+     if (type(num)) != str:
+          num = str(num)
+     print(1)          
+     while repeat < len(num):
+            if num[repeat:repeat+1] == str3 or num[repeat:repeat+1] == str1 or num[repeat:repeat+1] == str2 or num[repeat:repeat+1] == str4:
+              print("{0}찾음".format(repeat))
+            repeat += 1        
+
+     return 1
+          
+     
+import time
+          
+          
+
+
+ts = input("")
+
+
+
+
+
+sum(ts)
 
