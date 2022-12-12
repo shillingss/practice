@@ -36,3 +36,12 @@ def sum (num):
 sum(input(""))
 
 #미완
+
+#input 1+1-1 output ['1', '+', '1', '-', '1']
+
+#input 20-1+1 output ['20', '-', '1', '+', '1']
+
+#input 211-93*21-1& D:/Python38-32/python.exe output ['211', '-', '93', '*', '21', '-', '1& D:', '/', 'Python38', '-', '32', '/', 'python.exe c:', '/', 'Users', '/', '3D', '-', '01', '/', 'Desktop', '/', 'PytonWarkspace', '/', 'sum.py']
+#(my mistake but very good)
+
+#input 211-24-12+24/1 output ['211', '-', '24', '-', '12', '+', '24', '/', '1']
