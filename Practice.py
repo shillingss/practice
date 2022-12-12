@@ -395,7 +395,7 @@ def sum (num):
      
 import time
           
-          #1
+          
 
 
 ts = input("")
